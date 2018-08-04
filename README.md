@@ -51,4 +51,8 @@ git merge temp_new_branch  # 如果有冲突参考上边的做法
 # 保存最新的改动到正确的分支
 git add -A && git commit -m "append all changes back to right branch"
 # 删除临时分支
-git branch -D temp_new_branch¡¡
+git branch -D temp_new_branch
+
+# 删除无用的文件夹
+git rm -r --cached xxx
+git add -A && git commit -m "delete xxx"
