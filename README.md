@@ -131,3 +131,9 @@ git commit -amend
 3. 历史提交信息请Google
 ```
 
+#### 修改远程仓库，连接到新地址
+
+```shell
+git remote set-url origin url
+```
+
